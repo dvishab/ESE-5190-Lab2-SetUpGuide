@@ -15,7 +15,7 @@ You can use any terminal of your liking. I have used pre-installed windows termi
 I have used VS Code. You can download it through the link attached: [Download Visual Studio Code](https://code.visualstudio.com/download). Vim is also a good alternative. ( [Vim Text Editor](https://vim.en.softonic.com/) )
 
 3. Serial Console:
-I have used Putty as my serial console to connect to the RP2040's REPL. Follow the Adafruit tutorial for your machine here: [Advanced Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows)
+I have used PuTTy as my serial console to connect to the RP2040's REPL. Follow the Adafruit tutorial for your machine here: [Advanced Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows)
 </br>
 After installation, check Device Manager -> Ports (COM and LPT). Check the port of your USB connection. Open Putty -> Connection Type: Serial, Baud rate: 115200. 
 </br>
@@ -56,7 +56,18 @@ $ cd ..
 $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 Next Set Environment variables:
-![image]()
+</br>
+![image](https://user-images.githubusercontent.com/114099174/195966868-8bfb2f66-7c44-4488-bdad-063e4a985ae1.png)
+
+Build the pico-examples through VS Code. 
+
+Now go to pico-examples \build\hello_world\usb\hello_usb.uf2 and copy the generated .uf2 file to your board. You are all set for printing "Hello, world!" on the console.
+
+Open PuTTy, re-load the saved state or reset the baud rate and connection type to serial. 
+
+
+
+
 
 
 
