@@ -65,6 +65,10 @@ Now go to pico-examples \build\hello_world\usb\hello_usb.uf2 and copy the genera
 
 Open PuTTy, re-load the saved state or reset the baud rate and connection type to serial. 
 
+![image](https://user-images.githubusercontent.com/114099174/195967320-4e99069d-79c6-4ca1-a531-2f9aba6410f0.png)
+
+Voila! You have successfully run your first code.
+
 
 
 
