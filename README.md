@@ -7,7 +7,7 @@ This guide describes the steps for getting started with setting up **C/C++ SDK**
 2. OS - Windows 11 Home
 3. RAM - 8GB
 
-### Installations Required:
+### Basic Installations Required:
 1. Terminal:
 You can use any terminal of your liking. I have used pre-installed windows terminal. 
 
@@ -19,10 +19,12 @@ I have used Putty as my serial console to connect to the RP2040's REPL. Follow t
 
 ### Useful References:
 1.[Raspberry Pi Pico C/C++ SDK - Libraries and Tools](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+
 2.[RP2040 Datasheet](https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf)
+
 3.[Getting Started  with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
-Few tools required to install C/C++ SDK on Windows:
+Tools required for successful installation of C/C++ SDK on Windows:
 1. [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 2. [CMake](https://cmake.org/download/)
 3. [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
