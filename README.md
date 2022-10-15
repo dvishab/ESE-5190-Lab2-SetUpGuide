@@ -16,6 +16,16 @@ I have used VS Code. You can download it through the link attached: [Download Vi
 
 3. Serial Console:
 I have used Putty as my serial console to connect to the RP2040's REPL. Follow the Adafruit tutorial for your machine here: [Advanced Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/advanced-serial-console-on-windows)
+</br>
+After installation, check Device Manager -> Ports (COM and LPT). Check the port of your USB connection. Open Putty -> Connection Type: Serial, Baud rate: 115200. 
+</br>
+Enter and save the required specs in a file to re-load it anytime in the future.
+Click ‘Open’ to open the PuTTy program terminal.
+PuTTy is all set to be used.
+
+
+
+
 
 ### Useful References:
 1.[Raspberry Pi Pico C/C++ SDK - Libraries and Tools](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
