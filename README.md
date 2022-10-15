@@ -56,7 +56,7 @@ $ cd ..
 $ git clone -b master https://github.com/raspberrypi/pico-examples.git
 ```
 Next Set Environment variables:
-
+![image]()
 
 
 
