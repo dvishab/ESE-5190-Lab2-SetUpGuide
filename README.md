@@ -2,7 +2,9 @@
 
 This guide describes the steps for getting started with setting up **C/C++ SDK** development environment to communicate with Adafruit QT Py RP2040.
 
-## **System Specifications**
+### **System Specifications**
+Processor - AMD Ryzen 7 5700U
+Edition -  
 
 
 
