@@ -40,6 +40,23 @@ Tools required for successful installation and setting up the board to work with
 3. [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
 4. [Git](https://git-scm.com/download/win)
 
+After the necessary installations and lookups to references, you need to clone the github repository using following commands:
+
+```
+$ cd ~/
+$ mkdir pico
+$ cd pico
+```
+Then clone the **pico-sdk** and **pico-examples** git repositories.
+```
+$ git clone -b master https://github.com/raspberrypi/pico-sdk.git
+$ cd pico-sdk
+$ git submodule update --init
+$ cd ..
+$ git clone -b master https://github.com/raspberrypi/pico-examples.git
+```
+Next Set Environment variables:
+
 
 
 
