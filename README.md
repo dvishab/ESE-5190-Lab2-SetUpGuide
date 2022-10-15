@@ -23,7 +23,7 @@ Enter and save the required specs in a file to re-load it anytime in the future.
 Click ‘Open’ to open the PuTTy program terminal.
 PuTTy is all set to be used.
 
-
+![image](https://user-images.githubusercontent.com/114099174/195966562-34c876a4-23a5-42e7-8b84-177f66df5566.jpeg)
 
 
 
@@ -34,7 +34,7 @@ PuTTy is all set to be used.
 
 3.[Getting Started  with Raspberry Pi Pico](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
-Tools required for successful installation of C/C++ SDK on Windows:
+Tools required for successful installation and setting up the board to work with C/C++ SDK:
 1. [Arm GNU Toolchain](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 2. [CMake](https://cmake.org/download/)
 3. [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022)
